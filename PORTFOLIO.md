@@ -44,6 +44,7 @@ A privacy-oriented desktop product for lecture recording or upload, preserved tr
 
 ## Other Selected Work
 
+- **Calendar Agent:** a local-first desktop assistant that turns typed requests and document content into editable scheduling proposals, with deterministic time handling, duplicate review, bounded model assistance, and explicit approval before calendar writes.
 - **Forgeboard:** a local content-operations application covering media understanding, planning, FFmpeg rendering, review, test publishing, metric import, and evidence-grounded insights. The verified publication adapter is synthetic; official platform publishing remains unverified.
 - **EventNook Prospecting Agent:** an auditable UiPath workflow for company discovery, research, ICP qualification, contact checks, and structured JSON/Excel output. Retained unattended test runs and upload checks document the workflow; production deployment is separate.
 - **Story Forge:** a separate interactive-reading production system with story planning, generation, QA, bounded batch queues, and portable finalized Story Library packages.
