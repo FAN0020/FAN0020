@@ -2,17 +2,22 @@
 
 I build applied AI systems, from problem definition and architecture to implementation, evaluation and release. I am an MSc Enterprise Artificial Intelligence candidate at Nanyang Technological University, with a Computer Science degree and a Data Science specialisation.
 
-My work focuses on LLM applications, speech AI, retrieval-augmented generation and reliable automation.
+My work focuses on speech AI, retrieval-augmented generation, source-grounded generation and reliable automation.
 
 ## Selected work
 
 | Project | What I built | Tools |
 | --- | --- | --- |
+| **Field Work Reporting Agent** | Technician-reviewed voice-to-report workflow with source-bound facts, domain-isolated retrieval, missing-field clarification and validated report confirmation. MVP workflow verified; field-speech quality and production use remain unverified. | Node.js, whisper.cpp, Ollama, retrieval |
+| **Agentic Story Compiler / Story Director V4** | Source-grounded story-to-video planning, provider-aware production and scoped repair. A retained local run assembled a 21-Clip Episode; visual quality remains under review. | FastAPI, SQLite, Qwen, MFLUX, LTX/MLX, FFmpeg |
+| **Voice Book QA** | Single-PDF voice question answering with durable hybrid retrieval and server-validated citations. The published retrieval score is from a synthetic fixture. | React, FastAPI, PostgreSQL, pgvector, Whisper |
 | **Local Lecture Copilot** | Local-first macOS/Windows app for live transcription, bilingual translation and lecture notes. Three-stage ASR, context-aware RAG correction, a 20-case evaluation set and 180+ automated tests. | Electron, Node.js, whisper.cpp, Ollama, RAG |
 | **Agentic Rental Appointment Automation** | Workflows for property filtering, calendar availability, response interpretation and appointment tracking, with lifecycle controls and human review. | UiPath, REST APIs, Excel, Microsoft 365 |
 | [**Local Outlook Group Mailer**](https://github.com/FAN0020/group_email) | Local workflow that matches authorised class-roster identities and prepares BCC email drafts, with ambiguity checks, persistence and recovery. | Python, Playwright, SQLite |
 | [**ClassGuruAI Payment Service**](https://github.com/FAN0020/CG_payment_service) | Subscription billing and credit-management microservice with JWT authentication, health checks and API documentation. | TypeScript, Fastify, SQLite, Docker |
 | [**TTSH / NTU Training Application**](https://github.com/joanne-ch/TTSH-OB) | Four-person team project: an onboarding-training prototype spanning three chapters in eight weeks. I led UI/UX and contributed gameplay logic. | Ren'Py, Figma |
+
+[Read the Field Reporting, Story Director and Voice Book QA case studies](PORTFOLIO.md).
 
 ## Experience
 
