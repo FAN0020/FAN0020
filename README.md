@@ -18,14 +18,14 @@ I build applied AI products with reviewable outputs, explicit evidence, and clea
 | Project | Classification | Outcome and evaluation |
 | --- | --- | --- |
 | [**Local Lecture Copilot**](https://github.com/FAN0020/local-lecture-copilot) | Local-first speech AI · Electron, whisper.cpp, Ollama · NTU team project; my work is the Version C/C6 branch | **395 tests passed**. A measured 10.5-minute Base run completed 66/66 chunks at 0.620 s average decode time. On 20 fixed C6 slices, proxy WER moved 0.3271 → 0.3243; this compares against an unverified Large-v3 transcript, not human ground truth. [Latest verification](https://github.com/FAN0020/local-lecture-copilot/blob/main/docs/latest-verification.md). |
-| [**ServiceScribe**](https://github.com/FAN0020/newway-hvac-report-agent) | Source-grounded field reporting · Node.js, whisper.cpp, retrieval | MVP workflow verified from transcript review through receipt-bound facts, validation, and technician confirmation. Field-speech quality and production deployment remain unverified. |
+| [**ServiceScribe**](https://github.com/FAN0020/newway-hvac-report-agent) | Source-grounded field reporting · Node.js, whisper.cpp, retrieval | **7 frozen synthetic cases: 100% expected-field recall, 0 frozen safety-gate failures.** Technician-reviewed report workflow. Field-speech quality and production deployment remain unverified. [Evaluation](https://github.com/FAN0020/newway-hvac-report-agent/blob/main/docs/SBS_EXTRACTION_EVALUATION.md). |
 
 ## Workflow automation and services
 
 | Project | Classification | Reviewer shortcut |
 | --- | --- | --- |
-| [**Local Outlook Group Mailer**](https://github.com/FAN0020/group_email) | Human-reviewed workflow automation | Matches authorised class-roster identities and prepares an Outlook BCC draft; ambiguous recipients require review and sending stays manual. |
-| [**ClassGuruAI Payment Service**](https://github.com/FAN0020/CG_payment_service) | Backend service · TypeScript, Fastify, SQLite, Stripe | Subscription billing and credit management with JWT authentication, idempotent webhook handling, Docker, health checks, and OpenAPI docs. |
+| [**Local Outlook Group Mailer**](https://github.com/FAN0020/group_email) | Human-reviewed workflow automation · Python, Playwright, SQLite | **38/38 mocked tests passed.** Roster identity matching → reviewed Outlook BCC draft; sending stays manual. [Test scope](https://github.com/FAN0020/group_email#automated-tests). |
+| [**ClassGuruAI Payment Service**](https://github.com/FAN0020/CG_payment_service) | Backend service · TypeScript, Fastify, SQLite, Stripe | **Type-check and build passed.** Subscription billing, credits, JWT authentication, and idempotent webhooks. Live payment behavior was not evaluated. [Verification](https://github.com/FAN0020/CG_payment_service/blob/main/docs/verification-2026-10-07.md). |
 
 ## Experience
 
