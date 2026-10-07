@@ -1,35 +1,36 @@
-# Hi, I'm Fan Yupei
+# Fan Yupei
 
-I build applied AI systems, from problem definition and architecture to implementation, evaluation and release. I am an MSc Enterprise Artificial Intelligence candidate at Nanyang Technological University, with a Computer Science degree and a Data Science specialisation.
+I build applied AI products with reviewable outputs, explicit evidence, and clear limits. I am an MSc Enterprise Artificial Intelligence candidate at Nanyang Technological University, with a Computer Science degree and a Data Science specialisation.
 
-My work focuses on speech AI, retrieval-augmented generation, source-grounded generation and reliable automation.
+## Contents
 
-## Selected work
+| Section | What you’ll find |
+| --- | --- |
+| [Applied AI products](#applied-ai-products) | Local AI systems and measured results |
+| [Workflow automation and services](#workflow-automation-and-services) | Human-reviewed automation and backend engineering |
+| [Experience](#experience) | Applied AI engineering internship |
+| [Education](#education) | NTU degrees |
+| [Toolkit](#toolkit) | Methods and technologies |
+| [Full project notes](PORTFOLIO.md) | Methods, evaluation details, and limitations |
 
-| Project | What I built | Tools |
+## Applied AI products
+
+| Project | Classification | Outcome and evaluation |
 | --- | --- | --- |
-| **Field Work Reporting Agent** | Technician-reviewed voice-to-report workflow with source-bound facts, domain-isolated retrieval, missing-field clarification and validated report confirmation. MVP workflow verified; field-speech quality and production use remain unverified. | Node.js, whisper.cpp, Ollama, retrieval |
-| **Agentic Story Compiler / Story Director V4** | Source-grounded story-to-video planning, provider-aware production and scoped repair. A retained local run assembled a 21-Clip Episode; visual quality remains under review. | FastAPI, SQLite, Qwen, MFLUX, LTX/MLX, FFmpeg |
-| **Voice Book QA** | Single-PDF voice question answering with durable hybrid retrieval and server-validated citations. The published retrieval score is from a synthetic fixture. | React, FastAPI, PostgreSQL, pgvector, Whisper |
-| **Local Lecture Copilot** | Local-first macOS/Windows app for live transcription, bilingual translation and lecture notes. Three-stage ASR, context-aware RAG correction, a 20-case evaluation set and 180+ automated tests. | Electron, Node.js, whisper.cpp, Ollama, RAG |
-| **Agentic Rental Appointment Automation** | Workflows for property filtering, calendar availability, response interpretation and appointment tracking, with lifecycle controls and human review. | UiPath, REST APIs, Excel, Microsoft 365 |
-| [**Local Outlook Group Mailer**](https://github.com/FAN0020/group_email) | Local workflow that matches authorised class-roster identities and prepares BCC email drafts, with ambiguity checks, persistence and recovery. | Python, Playwright, SQLite |
-| [**ClassGuruAI Payment Service**](https://github.com/FAN0020/CG_payment_service) | Subscription billing and credit-management microservice with JWT authentication, health checks and API documentation. | TypeScript, Fastify, SQLite, Docker |
-| [**TTSH / NTU Training Application**](https://github.com/joanne-ch/TTSH-OB) | Four-person team project: an onboarding-training prototype spanning three chapters in eight weeks. I led UI/UX and contributed gameplay logic. | Ren'Py, Figma |
+| [**Local Lecture Copilot**](https://github.com/FAN0020/local-lecture-copilot) | Local-first speech AI · Electron, whisper.cpp, Ollama · NTU team project; my work is the Version C/C6 branch | **395 tests passed**. A measured 10.5-minute Base run completed 66/66 chunks at 0.620 s average decode time. On 20 fixed C6 slices, proxy WER moved 0.3271 → 0.3243; this compares against an unverified Large-v3 transcript, not human ground truth. [Latest verification](https://github.com/FAN0020/local-lecture-copilot/blob/main/docs/latest-verification.md). |
+| [**ServiceScribe**](https://github.com/FAN0020/newway-hvac-report-agent) | Source-grounded field reporting · Node.js, whisper.cpp, retrieval | MVP workflow verified from transcript review through receipt-bound facts, validation, and technician confirmation. Field-speech quality and production deployment remain unverified. |
 
-[Read the Field Reporting, Story Director and Voice Book QA case studies](PORTFOLIO.md).
+## Workflow automation and services
+
+| Project | Classification | Reviewer shortcut |
+| --- | --- | --- |
+| [**Local Outlook Group Mailer**](https://github.com/FAN0020/group_email) | Human-reviewed workflow automation | Matches authorised class-roster identities and prepares an Outlook BCC draft; ambiguous recipients require review and sending stays manual. |
+| [**ClassGuruAI Payment Service**](https://github.com/FAN0020/CG_payment_service) | Backend service · TypeScript, Fastify, SQLite, Stripe | Subscription billing and credit management with JWT authentication, idempotent webhook handling, Docker, health checks, and OpenAPI docs. |
 
 ## Experience
 
 **AI Software Engineer Intern — Fling AI** · January–July 2025  
-Improved warehouse counting accuracy from approximately 70% to 94%+ through YOLOv7/YOLOv11 fine-tuning and dataset-quality improvements. Built reproducible Docker/SageMaker workflows and implemented live counting interfaces.
-
-## Toolkit
-
-- **AI:** LLM integration, RAG, prompt design, Whisper/ASR, PyTorch, computer vision, model evaluation
-- **Engineering:** Python, JavaScript/TypeScript, React, Node.js, Electron, REST APIs, SQL
-- **Automation and delivery:** UiPath, Playwright, Docker, GitHub Actions, AWS SageMaker
-- **Product:** Discovery, requirements, roadmaps, Figma, user flows, MVP iteration
+Improved warehouse counting accuracy from approximately 70% to 94%+ through YOLOv7/YOLOv11 fine-tuning and dataset-quality improvements. Built reproducible Docker/SageMaker workflows and live counting interfaces.
 
 ## Education
 
@@ -38,6 +39,13 @@ MSc in Enterprise Artificial Intelligence · August 2026–Present
 Bachelor of Computing in Computer Science, Honours · August 2021–March 2026  
 Data Science specialisation
 
-Interested in AI product engineering, applied AI, agentic automation and technical product opportunities in Singapore.
+## Toolkit
+
+- **AI:** LLM integration, RAG, prompt design, Whisper/ASR, PyTorch, computer vision, model evaluation
+- **Engineering:** Python, JavaScript/TypeScript, React, Node.js, Electron, REST APIs, SQL
+- **Automation and delivery:** UiPath, Playwright, Docker, GitHub Actions, AWS SageMaker
+- **Product:** Discovery, requirements, roadmaps, Figma, user flows, MVP iteration
+
+Interested in AI product engineering, applied AI, agentic automation, and technical product opportunities in Singapore.
 
 [LinkedIn](https://www.linkedin.com/in/fan-yupei-0522---)
