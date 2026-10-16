@@ -8,6 +8,7 @@ I build applied AI products with reviewable outputs, explicit evidence, and clea
 | --- | --- |
 | [Applied AI products](#applied-ai-products) | Local AI systems and measured results |
 | [Workflow automation and services](#workflow-automation-and-services) | Human-reviewed automation and backend engineering |
+| [Agent skills](#agent-skills) | Reusable workflows for UI quality, engineering history, and academic notes |
 | [Experience](#experience) | Applied AI engineering internship |
 | [Education](#education) | NTU degrees |
 | [Toolkit](#toolkit) | Methods and technologies |
@@ -26,6 +27,20 @@ I build applied AI products with reviewable outputs, explicit evidence, and clea
 | --- | --- | --- |
 | [**Local Outlook Group Mailer**](https://github.com/FAN0020/group_email) | Human-reviewed workflow automation · Python, Playwright, SQLite | **38/38 mocked tests passed.** Roster identity matching → reviewed Outlook BCC draft; sending stays manual. [Test scope](https://github.com/FAN0020/group_email#automated-tests). |
 | [**ClassGuruAI Payment Service**](https://github.com/FAN0020/CG_payment_service) | Backend service · TypeScript, Fastify, SQLite, Stripe | **Type-check and build passed.** Subscription billing, credits, JWT authentication, and idempotent webhooks. Live payment behavior was not evaluated. [Verification](https://github.com/FAN0020/CG_payment_service/blob/main/docs/verification-2026-10-07.md). |
+
+## Agent skills
+
+I turn recurring product and research workflows into reusable agent skills with explicit evidence requirements and clear limits.
+
+| Skill | Main capability | Design focus |
+| --- | --- | --- |
+| [**Product UI QA**](https://github.com/FAN0020/evidence-driven-agent-skills/tree/main/skills/product-ui-qa) | Review and verify product interfaces | Component necessity, meaningful UI states, and an adversarial completion review |
+| [**Visual Convergence**](https://github.com/FAN0020/evidence-driven-agent-skills/tree/main/skills/visual-convergence) | Refine an existing UI toward an approved reference | Token correctness, perceptual composition, and project-specific visual decisions |
+| [**Project History Archivist**](https://github.com/FAN0020/evidence-driven-agent-skills/tree/main/skills/project-history-archivist) | Reconstruct accessible conversations and development into an auditable DOCX | Inventory reconciliation, chronology, and Git corroboration |
+| [**Software History Lessons**](https://github.com/FAN0020/evidence-driven-agent-skills/tree/main/skills/software-history-lessons) | Turn repository history into reusable engineering knowledge | Evidence, transfer conditions, target-product recommendations, and validation |
+| [**Adaptive Academic Note Architect**](https://github.com/FAN0020/adaptive-academic-note-architect) | Reconstruct comprehensive academic notes from mixed sources | Bilingual explanations, source coverage, underlined takeaways, and navigable documents |
+
+[Collection and installation](https://github.com/FAN0020/evidence-driven-agent-skills) · [Source-linked comparisons](https://github.com/FAN0020/evidence-driven-agent-skills/blob/main/docs/comparisons.md). These describe workflow capabilities; comparative output quality has not been benchmarked.
 
 ## Experience
 
