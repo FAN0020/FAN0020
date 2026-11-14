@@ -4,6 +4,12 @@ Public projects are grouped by the problem they solve. Each result distinguishes
 
 ## Applied AI products
 
+### Story Compiler Studio
+
+**Local multimodal creation · Python, React, FLUX, LTX-Video** · [Source](https://github.com/FAN0020/Smaller_Agentic_Story_Compiler)
+
+This studio turns a story into a source-grounded series bible, reviewer-approved visual references, episode plans, and a 1–4 minute video workflow. Jobs and approvals persist; a new take preserves earlier outputs. A verified local take assembled 15 separately generated clips into a 60.02-second video with captions. The planning case needed reviewer correction, and sampled frames showed identity and anatomy drift. The take is an engineering evaluation artifact, not approved professional footage. See the [verification record](https://github.com/FAN0020/Smaller_Agentic_Story_Compiler/blob/main/docs/implementation/VERIFICATION.md) and [evaluation scope](https://github.com/FAN0020/Smaller_Agentic_Story_Compiler/blob/main/evaluations/README.md).
+
 ### Local Lecture Copilot
 
 **Local speech AI · Electron, whisper.cpp, Ollama · NTU team project** · [Source](https://github.com/FAN0020/local-lecture-copilot)
@@ -21,6 +27,12 @@ This lecture workspace records or imports audio, keeps a reviewable transcript, 
 Built a technician-reviewed workflow from voice statement to confirmed service report: preserve raw speech, suggest domain terminology corrections, extract source-bound facts, ask about missing fields, validate report claims, then bind confirmation to the exact report version. The MVP workflow is verified; field-speech quality and production deployment remain unverified.
 
 **Evidence.** A fresh rerun of the seven frozen synthetic Bus/Rail extraction cases achieved 100% expected-field recall with zero frozen safety-gate failures. This measures deterministic text-to-field extraction, not field ASR accuracy. See the [method and results](https://github.com/FAN0020/newway-hvac-report-agent/blob/main/docs/SBS_EXTRACTION_EVALUATION.md).
+
+## Agent research and evaluation
+
+**Tool Harness Adaptation · NTU team research** · [Source](https://github.com/FAN0020/pe6203-tool-harness-adaptation)
+
+The repository compares No Update, Full Rewrite, and Selective Patch when an agent's tool environment changes. The original course matrix contains 27 scored task-method runs across fixed tasks and change stages, with archived trajectories, scoring, failures, and offline recomputation. Later V1–V6 and retry-inclusive summaries are useful descriptive evidence, but their protocols differ; they do not establish a matched causal ranking. The work is a team project with contributions recorded in the repository. See its [current README](https://github.com/FAN0020/pe6203-tool-harness-adaptation#readme) for methods and caveats.
 
 ## Workflow automation and services
 
