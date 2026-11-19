@@ -1,6 +1,6 @@
 # Fan Yupei
 
-I build applied AI products with reviewable outputs, explicit evidence, and clear limits. I am an MSc Enterprise Artificial Intelligence candidate at Nanyang Technological University, with a Computer Science degree and a Data Science specialisation.
+I build applied AI products and reusable agent workflows with reviewable outputs, explicit evidence, and clear limits. I am an MSc Enterprise Artificial Intelligence candidate at Nanyang Technological University, with a Computer Science degree and a Data Science specialisation.
 
 ## Contents
 
@@ -9,7 +9,7 @@ I build applied AI products with reviewable outputs, explicit evidence, and clea
 | [Applied AI products](#applied-ai-products) | Local speech, field reporting, and multimodal creation |
 | [Agent research and evaluation](#agent-research-and-evaluation) | Reproducible tool-change comparisons |
 | [Workflow automation and services](#workflow-automation-and-services) | Human-reviewed automation and backend engineering |
-| [Agent skills](#agent-skills) | Reusable workflows for UI, animation selection, history, and academic notes |
+| [Agent skills](#agent-skills) | Reusable workflows for UI, repository learning, engineering history, and academic notes |
 | [Experience](#experience) | Applied AI engineering internship |
 | [Education](#education) | NTU degrees |
 | [Toolkit](#toolkit) | Methods and technologies |
@@ -38,7 +38,7 @@ I build applied AI products with reviewable outputs, explicit evidence, and clea
 
 ## Agent skills
 
-I turn recurring product and research workflows into reusable agent skills with explicit evidence requirements and clear limits.
+I turn recurring product and research workflows into reusable agent skills with explicit evidence requirements and clear limits. The repository-learning skill turns real commit history into a staged learning path.
 
 | Skill | Main capability | Design focus |
 | --- | --- | --- |
@@ -47,6 +47,7 @@ I turn recurring product and research workflows into reusable agent skills with 
 | [**Visual Convergence**](https://github.com/FAN0020/evidence-driven-agent-skills/tree/main/skills/visual-convergence) | Refine an existing UI toward an approved reference | Token correctness, perceptual composition, and project-specific visual decisions |
 | [**Project History Archivist**](https://github.com/FAN0020/evidence-driven-agent-skills/tree/main/skills/project-history-archivist) | Reconstruct accessible conversations and development into an auditable DOCX | Inventory reconciliation, chronology, and Git corroboration |
 | [**Software History Lessons**](https://github.com/FAN0020/evidence-driven-agent-skills/tree/main/skills/software-history-lessons) | Turn repository history into reusable engineering knowledge | Evidence, transfer conditions, target-product recommendations, and validation |
+| [**Repo Evolution Learning**](https://github.com/FAN0020/evidence-driven-agent-skills/tree/main/skills/repo-evolution-learning) | Learn a repository through its architecture, feature history, and code changes | Git metadata triage, commit-linked explanations, and staged exercises |
 | [**Adaptive Academic Note Architect**](https://github.com/FAN0020/adaptive-academic-note-architect) | Reconstruct comprehensive academic notes from mixed sources | Bilingual explanations, source coverage, underlined takeaways, and navigable documents |
 
 [Collection and installation](https://github.com/FAN0020/evidence-driven-agent-skills) · [Animation selection catalog](https://github.com/FAN0020/evidence-driven-agent-skills/blob/main/skills/animated-component-picker/references/catalog.md) · [Original skill comparisons](https://github.com/FAN0020/evidence-driven-agent-skills/blob/main/docs/comparisons.md). These describe workflow capabilities and task fit; comparative output quality has not been benchmarked.
